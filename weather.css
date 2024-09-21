@@ -1,0 +1,81 @@
+*{
+    font-family: sans-serif;
+}
+
+
+body{
+    background-image: url(./media/bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 100vw;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#weather {
+    background: rgba(63, 1, 92, 0.752);
+    width: 550px;
+    height: 650px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.box{
+    border-radius: 10px;
+    width: 400px;
+    height: 30px;
+    border-color: transparent;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.btt button{
+    width: 80px;
+     background-color: #1650e1;
+     color: white;
+     font-size: 15px;
+    
+}
+
+.btt button:hover{
+    width: 80px;
+     background-color: #b4008a;
+     color: #ffffff;
+     font-size: 15px;
+    
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+}
+#second{
+    width: 200px;
+    height: 50px;
+
+}
+#first{
+    width: 200px;
+    height: 50px;
+
+}
+#text{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.logos2{
+    margin-top: 13%;
+    display: flex;
+    justify-content: space-between;
+}
+#third{
+    width: 200px;
+    height: 50px;
+
+}
+#fourth{
+    width: 200px;
+    height: 50px;
+
+}
