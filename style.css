@@ -7,6 +7,7 @@ body{
     background-image: url(./media/bg.jpeg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     height: 800px;
     width: 100vw;
     overflow-y: hidden;
